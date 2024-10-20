@@ -1,18 +1,67 @@
 body {
-    margin: 0;
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.header1 {
+  color: white;
+  font-size: 3em;
+  text-shadow: 10px 2px 5px black;
+}
+.navigation-icon {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.navigation-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(54, 54, 54, 0.753);
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    background-color: gray;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
+.navigation-box:hover {
+  background-color: rgba(54, 54, 54, 0.527);
 }
-.header1{
-    color: white;
-    font-size: 3em;
-    text-shadow: 10px 2px 5px black;
+
+.latest-box {
+  color: rgb(150, 212, 87);
+}
+.top-list-box {
+  color: rgb(156, 103, 156);
+}
+.random-box {
+  color: orange;
+}
+.upload-box {
+  color: rgb(170, 61, 61);
+}
+.forums-box {
+  color: yellow;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+}
+.navigation-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 650px) {
+  .navigation {
+    flex-direction: column;
+  }
 }
