@@ -13,4 +13,6 @@ body {
 }
 .header1{
     color: white;
+    font-size: 3em;
+    text-shadow: 10px 2px 5px black;
 }
