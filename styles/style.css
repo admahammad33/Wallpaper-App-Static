@@ -72,11 +72,19 @@ body {
   background-color: rgb(182, 180, 180);
   border: 0;
 }
+.wordCloud {
+  width: 100vw;
+  height: 50vh;
+  margin-top: -50px;
+}
 @media screen and (max-width: 650px) {
   .navigation {
     flex-direction: column;
   }
   .search {
     width: 300px;
+  }
+  .wordCloud {
+    margin-top: 40px;
   }
 }
